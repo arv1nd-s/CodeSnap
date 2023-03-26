@@ -78,3 +78,14 @@ nav ul li:hover{
     left: 50%;
     transform: translate(-50%);
 }
+
+#container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#my-div{
+    width: 75vw;
+}
