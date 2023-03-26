@@ -70,3 +70,11 @@ nav ul li:hover{
     background: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
+
+#intro-h{
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%);
+}
