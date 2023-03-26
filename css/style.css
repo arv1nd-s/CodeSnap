@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 section{
@@ -23,4 +26,47 @@ section{
     100%{
         background-position: 0 50%;
     }
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    padding: 0px 90px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+#logo{
+    height: 60px;
+    float: left;
+    padding: 2px 20px;
+}
+
+#logo img{
+    height: 58px;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+nav ul li{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 0px 30px;
+    line-height: 30px;
+}
+
+nav ul li:hover{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
